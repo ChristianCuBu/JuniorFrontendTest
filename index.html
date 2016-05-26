@@ -2,10 +2,23 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Hello!</title>
+    <title>JuniorFrontEndTest</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-<h1>Hello!</h1>
+<div id="main">
+    <input type="text" id="inputUsername" placeholder="Search username...">
+    <button onclick="searchUser()">Search</button>
+    <div id="result">
+        <img id="img" src="">
+        <p id="username"></p>
+        <h3 id="fullname">Placeholder name</h3>
+        <p id="bio">Placeholder bio</p>
+        <h4>Repositories</h4>
+        <div id="reposList"></div>
+    </div>
+    <div id="error"></div>
+</div>
+<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
