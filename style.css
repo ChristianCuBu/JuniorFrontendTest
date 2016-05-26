@@ -1,0 +1,103 @@
+#main{
+    position: relative;
+    box-shadow: 5px 5px 5px grey;
+    margin: auto;
+    width: 20%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#result{
+    display: none;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#inputUsername{
+    width: 70%;
+    padding: 4px 4px;
+}
+
+button{
+    background-color: #e7e7e7;
+    border-radius: 3px;
+    border: thin;
+    color: black;
+    padding: 5px 5px;
+}
+
+#img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 5px;
+}
+
+p{
+    text-align: left;
+    font-family: Arial;
+    font-size: 0.8em;
+    line-height:0.2;
+}
+
+h3{
+    text-align: left;
+    font-family: Arial;
+    line-height:0.3;
+}
+
+h4{
+    text-align: left;
+    font-family: Arial;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: solid 1px ;
+}
+
+#error{
+    display:none;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
+    border-width: thin;
+    background-color: lightpink;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    font-family: Arial;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+ul li:last-child {
+    border-bottom: none
+}
+
+#stats{
+    float:right;
+    margin-right:5px;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
